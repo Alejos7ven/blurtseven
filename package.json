@@ -1,0 +1,17 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "bot for vote by the curator team Steem Sevens",
+  "main": "commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejos7ven",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1",
+    "@blurtfoundation/blurtjs": "0.1.1"
+  }
+}
