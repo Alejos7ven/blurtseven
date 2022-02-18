@@ -1,9 +1,10 @@
+require('dotenv').config()
 const mysql = require("mysql"); 
 const Db    = require('./db.js');
 
 let db          = new Db();
 let connection  = mysql.createConnection(db.data);
-let DEFAULT_AMOUNT_OF_VOTES = 200;
+let DEFAULT_AMOUNT_OF_VOTES = (process.env.DEFAULT_BANWIDTH)?process.env.DEFAULT_BANWIDTH:200;
 let custom = [{
     "username":"alejos7ven",
     "bandwidth":1500

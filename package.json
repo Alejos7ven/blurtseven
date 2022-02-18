@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "moment": "^2.29.1",
+    "dotenv": "^10.0.0",
     "mysql": "^2.18.1",
     "node-fetch": "^2.6.1",
     "@blurtfoundation/blurtjs": "0.1.1"

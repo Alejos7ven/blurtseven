@@ -1,10 +1,11 @@
+require('dotenv').config()
 class Db {
     constructor() {
         this.data = {
-            host : 'localhost',
-            database : 'blurtseven',
-            user : 'root',
-            password : ''
+            host : process.env.HOST,
+            database : process.env.DB,
+            user : process.env.USER,
+            password : process.env.PASSWORD
         }
         this.dbConnection = this.getDataConnection();
     }
